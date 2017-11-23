@@ -16,6 +16,7 @@ public class IntClass {
 		whichbrowser.setBrowserName("chrome");
 		WebDriver driver=new RemoteWebDriver(whichsystem,whichbrowser);
 		driver.get("https://www.google.co.in");
+		System.out.println("Pass");
 	}
 
 }
